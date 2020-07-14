@@ -34,3 +34,5 @@ urllib3==1.25.9           # via botocore, requests
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+# setup tools breaks because of python 2.7 Deprecation
+setuptools==44.0.0 ; python_version == "2.7"        # via ansible
